@@ -1,0 +1,26 @@
+.productcard{
+    border: 1px solid;
+    border-radius: 4px;
+    width: 400px;
+    text-align: center;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.latestproducts_buttons{
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.latestproducts{
+    text-align: center;
+}
