@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/all.min.css">
 </head>
 <body>
     <header>
@@ -18,37 +19,28 @@
         </div>
 
         <div class="headerpages2">
-            <a  href="#"> Login</a>
-            <a href="#">Register</a>
-            <a href="#">Cart</a>
+            <a href="#"><i class="fa-solid fa-right-to-bracket "></i>  Login</a>
+            <a href="#"><i class="fa-solid fa-user-plus"></i> Register</a>
+            <a href="#"> <i class="fa-solid fa-cart-shopping"></i> Cart (0)</a>
         </div>
     </header>
-        <img src="./media/main.png.jpg" alt="main_img">
+        <div class="main-imgdiv">
+            <img id="mainimg" src="./media/main.png.jpg" alt="main_img">
+            <h1 class="img-texth1">New Season Arrivals</h1>
+            <p class="img-textp">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a <br>little bit longer.</p>
+        </div>
+        
 
         <div class="latestproducts">
             <h1 id="latestproduct_title">Latest Products</h1>
             <hr><br><br><br>
 
                 <div>
-                    <button class="latestproducts_buttons">
-                        <label>All</label>
-                    </button>
-    
-                    <button class="latestproducts_buttons">
-                        <label>Men's clothing</label>
-                    </button>
-    
-                    <button class="latestproducts_buttons">
-                        <label>Women's Clothing</label>
-                    </button>
-    
-                    <button class="latestproducts_buttons">
-                        <label>Jewelery</label>
-                    </button>
-    
-                    <button class="latestproducts_buttons">
-                        <label>Electronics</label>
-                    </button>
+                    <a class="latestproducts-pages" href="#">All</a>
+                    <a class="latestproducts-pages" href="#">Men's Clothing</a>
+                    <a class="latestproducts-pages" href="#">Women's Clothing</a>
+                    <a class="latestproducts-pages" href="#">Jewelery</a>
+                    <a class="latestproducts-pages" href="#">Electronics</a>
                 </div><br><br><br><br>
 
         </div>
@@ -397,6 +389,6 @@
 
         <footer>
             <p>Made with ❤️ by SulthanShaik</p>
-        </footer>        
+        </footer>    
 </body>
 </html>
