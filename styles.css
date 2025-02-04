@@ -243,4 +243,74 @@ textarea:focus {
 .contactform-inputs{
     width: 300px;
     height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contactform-label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contactform-sendbutn{
+    background-color: gray;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin-left: 120px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#login{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.login-form{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.loginform-label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.loginform-inputs{
+    width: 300px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#login-span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#login-registeranchor{
+    text-decoration: none;
+    color: darkcyan;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#login-button{
+    background-color: gray;
+    color: white;
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin-left: 140px;
+    margin-top: 20px;
+    text-align: center;
 }
