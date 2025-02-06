@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,47 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./css/all.min.css">
 </head>
+
 <body>
     <header>
-        <h1  id="ecommerce">Ecommerce</h1>
-        
-        <div class="headerpages1">
+        <h1 id="ecommerce">Ecommerce</h1>
+    
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    
+        <nav class="headerpages">
             <a href="./index.html">Home</a>
             <a href="./productspage.html">Products</a>
             <a href="./aboutuspage.html">About</a>
-            <a href="./contactpage.html">Contact</a>
-        </div>
-
-        <div class="headerpages2">
-            <a href="./loginpage.html"><i class="fa-solid fa-right-to-bracket "></i>  Login</a>
-            <a href="./registerpage.html"><i class="fa-solid fa-user-plus"></i> Register</a>
-            <a href="./cartpage.html"> <i class="fa-solid fa-cart-shopping"></i> Cart (0)</a>
-        </div>
+            <a class="headeranchor" href="./contactpage.html">Contact</a>
+            <a class="headerloginbutn" href="./loginpage.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+            <a class="headerbutn" href="./registerpage.html"><i class="fa-solid fa-user-plus"></i> Register</a>
+            <a class="headerbutn" href="./cartpage.html"><i class="fa-solid fa-cart-shopping"></i> Cart (0)</a>
+        </nav>
     </header>
+    
+
+    <section class="content">
         <div class="main-imgdiv">
             <img id="mainimg" src="./media/main.png.jpg" alt="main_img">
             <h1 class="img-texth1">New Season Arrivals</h1>
-            <p class="img-textp">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a <br>little bit longer.</p>
+            <p class="img-textp">This is a wider card with supporting text below as a natural lead-in to additional content.
+                This content is a <br>little bit longer.</p>
         </div>
-        
-
+    
+    
         <div class="latestproducts">
             <h1 id="latestproduct_title">Latest Products</h1>
             <hr><br><br><br>
-
-                <div>
-                    <a class="latestproducts-pages" href="#">All</a>
-                    <a class="latestproducts-pages" href="#">Men's Clothing</a>
-                    <a class="latestproducts-pages" href="#">Women's Clothing</a>
-                    <a class="latestproducts-pages" href="#">Jewelery</a>
-                    <a class="latestproducts-pages" href="#">Electronics</a>
-                </div><br><br><br><br>
-
+    
+            <div>
+                <a class="latestproducts-pages" href="#">All</a>
+                <a class="latestproducts-pages" href="#">Men's Clothing</a>
+                <a class="latestproducts-pages" href="#">Women's Clothing</a>
+                <a class="latestproducts-pages" href="#">Jewelery</a>
+                <a class="latestproducts-pages" href="#">Electronics</a>
+            </div><br><br><br><br>
+    
         </div>
         <div class="product-container">
             <div class="productcard">
@@ -50,7 +56,7 @@
                     <img class="products-img" src="./media/81fPKd-2AYL._AC_SL1500_.jpg" alt="productimg1">
                     <figcaption class="products-figcaption">Fjallraven -...</figcaption>
                 </figure>
-                <p>Your perfect pack for everyday use <br> and walks in the forest. Stash your <br> laptop up to15 in...</p>
+                <p class="productcard-p">Your perfect pack for everyday use <br> and walks in the forest. Stash your <br> laptop up to15 in...</p>
                 <hr>
                 <p>$ 109.95</p>
                 <hr>
@@ -61,13 +67,13 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="productimg2">
                     <figcaption class="products-figcaption">Mens Casual...</figcaption>
                 </figure>
-                <p>Slim-fitting style, constant raglan <br> long sleeve, three-button henley <br> placket, light weight</p>
+                <p class="productcard-p">Slim-fitting style, constant raglan <br> long sleeve, three-button henley <br> placket, light weight</p>
                 <hr>
                 <p>$ 22.3</p>
                 <hr>
@@ -78,64 +84,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
-            <div class="productcard">
-                <figure>
-                    <img class="products-img" src="./media/71li-ujtlUL._AC_UX679_.jpg" alt="productimg3">
-                    <figcaption class="products-figcaption">Mens Cotton...</figcaption>
-                </figure>
-                <p>Great outerwear jackets for <br> Spring/ Autumn/Winter, suitable <br> for many occasions, such as wor...</p>
-                <hr>
-                <p>$ 55.99</p>
-                <hr>
-                <button class="details-button">
-                    <label>Details</label>
-                </button>
-                <button class="addtocart-button">
-                    <label>Add to Cart</label>
-                </button>
-            </div>
-
-            <div class="productcard">
-                <figure>
-                    <img class="products-img" src="./media/71YXzeOuslL._AC_UY879_.jpg" alt="productimg4">
-                    <figcaption class="products-figcaption">Mens Casual...</figcaption>
-                </figure>
-                <p>The color could be slightly different <br> between on the screen and in <br> practice ./Please note...</p>
-                <hr>
-                <p>$ 15.99</p>
-                <hr>
-                <button class="details-button">
-                    <label>Details</label>
-                </button>
-                <button class="addtocart-button">
-                    <label>Add to Cart</label>
-                </button>
-            </div>
-
-            <div class="productcard">
-                <figure>
-                    <img class="products-img" src="./media/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" alt="productimg5">
-                    <figcaption class="products-figcaption">John hardy W...</figcaption>
-                </figure>
-                <p>From our legends collection, the <br> Naga was inspired by the mythical <br> water dragon that prote...</p>
-                <hr>
-                <p>$ 695</p>
-                <hr>
-                <button class="details-button">
-                    <label>Details</label>
-                </button>
-                <button class="addtocart-button">
-                    <label>Add to Cart</label>
-                </button>
-            </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" alt="productimg6">
                     <figcaption class="products-figcaption">Solid Gold P...</figcaption>
                 </figure>
-                <p>Satisfaction Guaranteed. Return or <br> exchange any order within 30 <br> days. Designed and sold by...</p>
+                <p class="productcard-p">Satisfaction Guaranteed. Return or <br> exchange any order within 30 <br> days. Designed and sold by...
+                </p>
                 <hr>
                 <p>$ 168</p>
                 <hr>
@@ -146,13 +102,68 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
+            <div class="productcard">
+                <figure>
+                    <img class="products-img" src="./media/71YXzeOuslL._AC_UY879_.jpg" alt="productimg4">
+                    <figcaption class="products-figcaption">Mens Casual...</figcaption>
+                </figure>
+                <p class="productcard-p">The color could be slightly different <br> between on the screen and in <br> practice ./Please note...
+                </p>
+                <hr>
+                <p>$ 15.99</p>
+                <hr>
+                <button class="details-button">
+                    <label>Details</label>
+                </button>
+                <button class="addtocart-button">
+                    <label>Add to Cart</label>
+                </button>
+            </div>
+    
+            <div class="productcard">
+                <figure>
+                    <img class="products-img" src="./media/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" alt="productimg5">
+                    <figcaption class="products-figcaption">John hardy W...</figcaption>
+                </figure>
+                <p class="productcard-p">From our legends collection, the <br> Naga was inspired by the mythical <br> water dragon that prote...
+                </p>
+                <hr>
+                <p>$ 695</p>
+                <hr>
+                <button class="details-button">
+                    <label>Details</label>
+                </button>
+                <button class="addtocart-button">
+                    <label>Add to Cart</label>
+                </button>
+            </div>
+    
+            <div class="productcard">
+                <figure>
+                    <img class="products-img" src="./media/71li-ujtlUL._AC_UX679_.jpg" alt="productimg3">
+                    <figcaption class="products-figcaption">Mens Cotton...</figcaption>
+                </figure>
+                <p class="productcard-p">Great outerwear jackets for <br> Spring/ Autumn/Winter, suitable <br> for many occasions, such as wor...
+                </p>
+                <hr>
+                <p>$ 55.99</p>
+                <hr>
+                <button class="details-button">
+                    <label>Details</label>
+                </button>
+                <button class="addtocart-button">
+                    <label>Add to Cart</label>
+                </button>
+            </div>
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" alt="productimg7">
                     <figcaption class="products-figcaption">White Gold P...</figcaption>
                 </figure>
-                <p>Classic created  wedding <br> engagement solitaire diamond <br> promise ring for her. Gifts to spoil...</p>
+                <p class="productcard-p">Classic created wedding <br> engagement solitaire diamond <br> promise ring for her. Gifts to spoil...
+                </p>
                 <hr>
                 <p>$ 9.99</p>
                 <hr>
@@ -163,13 +174,13 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg" alt="productimg8">
                     <figcaption class="products-figcaption">Pierced Owl...</figcaption>
                 </figure>
-                <p>Rose gold plated double flared <br> tunnel plug earrings. Made of 316L <br> stainless steel...</p>
+                <p class="productcard-p">Rose gold plated double flared <br> tunnel plug earrings. Made of 316L <br> stainless steel...</p>
                 <hr>
                 <p>$ 10.99</p>
                 <hr>
@@ -180,13 +191,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/61IBBVJvSDL._AC_SY879_.jpg" alt="productimg9">
                     <figcaption class="products-figcaption">WD 2TB Eleme...</figcaption>
                 </figure>
-                <p>USB 3.0 and USB 2.0 compatibility <br> fast data transfers improve PC <br> performance high capacity...</p>
+                <p class="productcard-p">USB 3.0 and USB 2.0 compatibility <br> fast data transfers improve PC <br> performance high capacity...
+                </p>
                 <hr>
                 <p>$ 64</p>
                 <hr>
@@ -197,13 +209,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/61U7T1koQqL._AC_SX679_.jpg" alt="productimg10">
                     <figcaption class="products-figcaption">SanDisk SSD...</figcaption>
                 </figure>
-                <p>Easy upgrade for faster boot up, <br> shutdown, application load and <br> response As compared to 5...</p>
+                <p class="productcard-p">Easy upgrade for faster boot up, <br> shutdown, application load and <br> response As compared to 5...
+                </p>
                 <hr>
                 <p>$ 109</p>
                 <hr>
@@ -214,64 +227,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
-            <div class="productcard">
-                <figure>
-                    <img class="products-img" src="./media/71kWymZ+c+L._AC_SX679_.jpg" alt="productimg11">
-                    <figcaption class="products-figcaption">Silicon Powe...</figcaption>
-                </figure>
-                <p>3D NAND flash are applied to deliver <br> high transfer speeds remarkable <br> transfer speeds that...</p>
-                <hr>
-                <p>$ 109</p>
-                <hr>
-                <button class="details-button">
-                    <label>Details</label>
-                </button>
-                <button class="addtocart-button">
-                    <label>Add to Cart</label>
-                </button>
-            </div>
-
-            <div class="productcard">
-                <figure>
-                    <img class="products-img" src="./media/61mtL65D4cL._AC_SX679_.jpg" alt="productimg12">
-                    <figcaption class="products-figcaption">WD 4TB Gamin...</figcaption>
-                </figure>
-                <p>Expand your PS4 gaming experience, <br> Play anywhere fast and easy, setup <br> sleek design with hi...</p>
-                <hr>
-                <p>$ 114</p>
-                <hr>
-                <button class="details-button">
-                    <label>Details</label>
-                </button>
-                <button class="addtocart-button">
-                    <label>Add to Cart</label>
-                </button>
-            </div>
-
-            <div class="productcard">
-                <figure>
-                    <img class="products-img" src="./media/81QpkIctqPL._AC_SX679_.jpg" alt="productimg13">
-                    <figcaption class="products-figcaption">Acer SB220Q...</figcaption>
-                </figure>
-                <p>21.5 inches Full HD (1920 x 1080) <br> widescreen IPS display and radeon <br> free sync technology...</p>
-                <hr>
-                <p>$ 599</p>
-                <hr>
-                <button class="details-button">
-                    <label>Details</label>
-                </button>
-                <button class="addtocart-button">
-                    <label>Add to Cart</label>
-                </button>
-            </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/81Zt42ioCgL._AC_SX679_.jpg" alt="productimg14">
-                    <figcaption class="products-figcaption">Samsung 49-I...</figcaption>
+                    <figcaption class="products-figcaption">Samsung 49-Inches Su...</figcaption>
                 </figure>
-                <p>49 INCH SUPER ULTRAWIDE 32:9 <br> CURVED GAMING MONITOR with <br> dual 27 inch screen side by side Q...</p>
+                <p class="productcard-p">49 INCH SUPER ULTRAWIDE 32:9 <br> CURVED GAMING MONITOR with <br> dual 27 inch screen side by side Q...
+                </p>
                 <hr>
                 <p>$ 999.99</p>
                 <hr>
@@ -282,13 +245,67 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
+            <div class="productcard">
+                <figure>
+                    <img class="products-img" src="./media/61mtL65D4cL._AC_SX679_.jpg" alt="productimg12">
+                    <figcaption class="products-figcaption">WD 4TB Gamin...</figcaption>
+                </figure>
+                <p class="productcard-p">Expand your PS4 gaming experience, <br> Play anywhere fast,<br> sleek design with hi...
+                </p>
+                <hr>
+                <p>$ 114</p>
+                <hr>
+                <button class="details-button">
+                    <label>Details</label>
+                </button>
+                <button class="addtocart-button">
+                    <label>Add to Cart</label>
+                </button>
+            </div>
+    
+            <div class="productcard">
+                <figure>
+                    <img class="products-img" src="./media/81QpkIctqPL._AC_SX679_.jpg" alt="productimg13">
+                    <figcaption class="products-figcaption">Acer SB220Q...</figcaption>
+                </figure>
+                <p class="productcard-p">21.5 inches Full HD (1920 x 1080) <br> widescreen IPS display and radeon <br> free sync technology...</p>
+                <hr>
+                <p>$ 599</p>
+                <hr>
+                <button class="details-button">
+                    <label>Details</label>
+                </button>
+                <button class="addtocart-button">
+                    <label>Add to Cart</label>
+                </button>
+            </div>
+    
+            <div class="productcard">
+                <figure>
+                    <img class="products-img" src="./media/71kWymZ+c+L._AC_SX679_.jpg" alt="productimg11">
+                    <figcaption class="products-figcaption">Silicon Powe...</figcaption>
+                </figure>
+                <p class="productcard-p">3D NAND flash are applied to deliver <br> high transfer speeds remarkable <br> transfer speeds that...
+                </p>
+                <hr>
+                <p>$ 109</p>
+                <hr>
+                <button class="details-button">
+                    <label>Details</label>
+                </button>
+                <button class="addtocart-button">
+                    <label>Add to Cart</label>
+                </button>
+            </div>
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/51Y5NI-I5jL._AC_UX679_.jpg" alt="productimg15">
                     <figcaption class="products-figcaption">BIYLACLESEN...</figcaption>
                 </figure>
-                <p>Note: The jackets is US standard size, <br> Please choose size as your usual <br> wear material: 100%...</p>
+                <p class="productcard-p">Note: The jackets is US standard size, <br> Please choose size as your usual <br> wear material: 100%...
+                </p>
                 <hr>
                 <p>$ 56.99</p>
                 <hr>
@@ -299,13 +316,13 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/81XH0e8fefL._AC_UY879_.jpg" alt="productimg16">
                     <figcaption class="products-figcaption">Lock and Low...</figcaption>
                 </figure>
-                <p>100% POLYURETHANE(shell) 100% <br> POLYESTER(lining) 75% POLYSTER <br> 25% COTTON (SWEATER), Faux...</p>
+                <p class="productcard-p">100% POLYURETHANE(shell)<br> POLYESTER(lining) 75%<br> 25% COTTON (SWEATER), Faux...</p>
                 <hr>
                 <p>$ 29.95</p>
                 <hr>
@@ -316,13 +333,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/71HblAHs5xL._AC_UY879_-2.jpg" alt="productimg17">
                     <figcaption class="products-figcaption">Rain Jacket...</figcaption>
                 </figure>
-                <p>Lightweight perfect for trip or casual <br> wear--- Long sleeve with hooded, <br> adjustable drawstrin...</p>
+                <p class="productcard-p">Lightweight perfect for trip or casual <br> wear--- Long sleeve with hooded, <br> adjustable drawstrin...
+                </p>
                 <hr>
                 <p>$ 39.99</p>
                 <hr>
@@ -333,13 +351,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
             <div class="productcard">
                 <figure>
                     <img class="products-img" src="./media/71z3kpMAYsL._AC_UY879_.jpg" alt="productimg18">
                     <figcaption class="products-figcaption">MBJ Women's...</figcaption>
                 </figure>
-                <p>95% RAYON 5% SPANDAX, made in <br> USA or Imported, Do not bleach, <br> Lightweight fabric with great...</p>
+                <p class="productcard-p">95% RAYON 5% SPANDAX, made in <br> USA or Imported, Do not bleach, <br> Lightweight fabric with great...
+                </p>
                 <hr>
                 <p>$ 9.85</p>
                 <hr>
@@ -350,13 +369,13 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
-            <div class="productcard" style="margin-left: 220px;">
+    
+            <div class="productcard" id="productcard-last19">
                 <figure>
                     <img class="products-img" src="./media/51eg55uWmdL._AC_UX679_.jpg" alt="productimg19">
                     <figcaption class="products-figcaption">Opna Women's...</figcaption>
                 </figure>
-                <p>100% Polyster, Machine wash, 100% <br> cationic polyester interlock, Machine <br >wash & pre shrunk</p>
+                <p class="productcard-p">100% Polyster, Machine wash, 100% <br> cationic polyester interlock, Machine <br>wash & pre shrunk</p>
                 <hr>
                 <p>$ 7.95</p>
                 <hr>
@@ -367,13 +386,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
-            <div class="productcard" style="margin-left: 220px;">
+    
+            <div class="productcard" id="productcard-last20">
                 <figure>
                     <img class="products-img" src="./media/61pHAEJ4NML._AC_UX679_.jpg" alt="productimg20">
                     <figcaption class="products-figcaption">DANVOUY Women...</figcaption>
                 </figure>
-                <p>95% Cotton, 5% Spandex, Features: <br> Casual, short sleeve, Letter print, V- <br> Neck, Fashion tees, The...</p>
+                <p class="productcard-p">95% Cotton, 5% Spandex, Features: <br> Casual, short sleeve, Letter print, V- <br> Neck, Fashion tees,
+                    The...</p>
                 <hr>
                 <p>$ 12.99</p>
                 <hr>
@@ -384,11 +404,14 @@
                     <label>Add to Cart</label>
                 </button>
             </div>
-
+    
         </div><br><br>
+    </section>
+    
 
-        <footer>
-            <p>Made with ❤️ by SulthanShaik</p>
-        </footer>    
+    <footer>
+        <p>Made with ❤️ by SulthanShaik</p>
+    </footer>
 </body>
+
 </html>

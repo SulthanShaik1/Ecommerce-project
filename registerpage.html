@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,41 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <header>
-        <h1  id="ecommerce">Ecommerce</h1>
-        
-        <div class="headerpages1">
+        <h1 id="ecommerce">Ecommerce</h1>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav class="headerpages">
             <a href="./index.html">Home</a>
             <a href="./productspage.html">Products</a>
             <a href="./aboutuspage.html">About</a>
-            <a href="./contactpage.html">Contact</a>
-        </div>
-
-        <div class="headerpages2">
-            <a href="./loginpage.html"><i class="fa-solid fa-right-to-bracket "></i>  Login</a>
-            <a href="./registerpage.html"><i class="fa-solid fa-user-plus"></i> Register</a>
-            <a href="./cartpage.html"> <i class="fa-solid fa-cart-shopping"></i> Cart (0)</a>
-        </div>
+            <a class="headeranchor" href="./contactpage.html">Contact</a>
+            <a class="headerloginbutn" href="./loginpage.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+            <a class="headerbutn" href="./registerpage.html"><i class="fa-solid fa-user-plus"></i> Register</a>
+            <a class="headerbutn" href="./cartpage.html"><i class="fa-solid fa-cart-shopping"></i> Cart (0)</a>
+        </nav>
     </header>
 
-    <h1 id="register">Register</h1>
-    <hr><br>
+    <section class="content">
+        <h1 id="register">Register</h1>
+        <hr><br>
 
-    <form class="Register-form" method="post" action="#">
-        <label class="registerform-labels"> Full Name</label><br>
-        <input class="registerform-inputs" type="text" placeholder="   Enter your name" required><br>
-        <label class="registerform-labels">Email address</label><br>
-        <input class="registerform-inputs" type="email" placeholder="  name@example.com" required><br>
-        <label class="registerform-labels">Password</label><br>
-        <input class="registerform-inputs" type="password" placeholder="Password" required><br>
-        <span id="register-span">Already has an account?</span><a id="register-loginanchor" href="./loginpage.html">Login</a><br>
-        <button id="register-button">Register</button>
-    </form>
+        <form class="Register-form" method="post" action="#">
+            <label class="registerform-labels"> Full Name</label><br>
+            <input class="registerform-inputs" type="text" placeholder="   Enter your name" required><br>
+            <label class="registerform-labels">Email address</label><br>
+            <input class="registerform-inputs" type="email" placeholder="  name@example.com" required><br>
+            <label class="registerform-labels">Password</label><br>
+            <input class="registerform-inputs" type="password" placeholder="Password" required><br>
+            <span id="register-span">Already has an account?</span><a id="register-loginanchor"
+                href="./loginpage.html">Login</a><br>
+            <button id="register-button">Register</button>
+        </form>
+    </section>
 </body>
+
 </html>
